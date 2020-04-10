@@ -68,7 +68,11 @@ for i in range(len(files)):
 
             ##############
 
-            image = Image.open(tmp_path)
+            try:
+                image = Image.open(tmp_path)
+            except Exception as e:
+                print(e)
+                continue 
             th_w, th_h = image.size
             
             org_w = canvas["width"]
