@@ -1,0 +1,80 @@
+{
+    "@context": [
+        "http://iiif.io/api/presentation/2/context.json",
+        "http://codh.rois.ac.jp/iiif/curation/1/context.json"
+    ],
+    "@id": "https://nakamura196.github.io/umesao_yolo3/iiif/curation/X0252422/curation.json",
+    "@type": "cr:Curation",
+    "label": "Character List",
+    "selections": [
+        {
+            "@id": "https://nakamura196.github.io/umesao_yolo3/iiif/curation/X0252422/range1",
+            "@type": "sc:Range",
+            "label": "Characters",
+            "members": [
+                {
+                    "@id": "https://umesao.cultural.jp/iiif/item/X0252422/manifest.json/canvas/p1#xywh=230,684,124,217",
+                    "@type": "sc:Canvas",
+                    "label": "elephant",
+                    "metadata": [
+                        {
+                            "label": "Method",
+                            "value": "YOLO v3"
+                        },
+                        {
+                            "label": "Score",
+                            "value": "0.9868385"
+                        },
+                        {
+                            "label": "Thubmnail Region",
+                            "value": "72,214,39,68"
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://umesao.cultural.jp/iiif/item/X0252422/manifest.json/canvas/p1#xywh=438,640,400,345",
+                    "@type": "sc:Canvas",
+                    "label": "elephant",
+                    "metadata": [
+                        {
+                            "label": "Method",
+                            "value": "YOLO v3"
+                        },
+                        {
+                            "label": "Score",
+                            "value": "0.99682426"
+                        },
+                        {
+                            "label": "Thubmnail Region",
+                            "value": "137,200,125,108"
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://umesao.cultural.jp/iiif/item/X0252422/manifest.json/canvas/p1#xywh=528,550,160,121",
+                    "@type": "sc:Canvas",
+                    "label": "bench",
+                    "metadata": [
+                        {
+                            "label": "Method",
+                            "value": "YOLO v3"
+                        },
+                        {
+                            "label": "Score",
+                            "value": "0.42606542"
+                        },
+                        {
+                            "label": "Thubmnail Region",
+                            "value": "165,172,50,38"
+                        }
+                    ]
+                }
+            ],
+            "within": {
+                "@id": "https://umesao.cultural.jp/iiif/item/X0252422/manifest.json",
+                "@type": "sc:Manifest",
+                "label": "X0252422"
+            }
+        }
+    ]
+}

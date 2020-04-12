@@ -1,0 +1,80 @@
+{
+    "@context": [
+        "http://iiif.io/api/presentation/2/context.json",
+        "http://codh.rois.ac.jp/iiif/curation/1/context.json"
+    ],
+    "@id": "https://nakamura196.github.io/umesao_yolo3/iiif/curation/X0229572/curation.json",
+    "@type": "cr:Curation",
+    "label": "Character List",
+    "selections": [
+        {
+            "@id": "https://nakamura196.github.io/umesao_yolo3/iiif/curation/X0229572/range1",
+            "@type": "sc:Range",
+            "label": "Characters",
+            "members": [
+                {
+                    "@id": "https://umesao.cultural.jp/iiif/item/X0229572/manifest.json/canvas/p1#xywh=876,206,25,29",
+                    "@type": "sc:Canvas",
+                    "label": "clock",
+                    "metadata": [
+                        {
+                            "label": "Method",
+                            "value": "YOLO v3"
+                        },
+                        {
+                            "label": "Score",
+                            "value": "0.30247948"
+                        },
+                        {
+                            "label": "Thubmnail Region",
+                            "value": "411,97,12,14"
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://umesao.cultural.jp/iiif/item/X0229572/manifest.json/canvas/p1#xywh=482,388,132,42",
+                    "@type": "sc:Canvas",
+                    "label": "car",
+                    "metadata": [
+                        {
+                            "label": "Method",
+                            "value": "YOLO v3"
+                        },
+                        {
+                            "label": "Score",
+                            "value": "0.72287685"
+                        },
+                        {
+                            "label": "Thubmnail Region",
+                            "value": "226,182,62,20"
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://umesao.cultural.jp/iiif/item/X0229572/manifest.json/canvas/p1#xywh=996,384,177,51",
+                    "@type": "sc:Canvas",
+                    "label": "car",
+                    "metadata": [
+                        {
+                            "label": "Method",
+                            "value": "YOLO v3"
+                        },
+                        {
+                            "label": "Score",
+                            "value": "0.9756336"
+                        },
+                        {
+                            "label": "Thubmnail Region",
+                            "value": "467,180,83,24"
+                        }
+                    ]
+                }
+            ],
+            "within": {
+                "@id": "https://umesao.cultural.jp/iiif/item/X0229572/manifest.json",
+                "@type": "sc:Manifest",
+                "label": "X0229572"
+            }
+        }
+    ]
+}

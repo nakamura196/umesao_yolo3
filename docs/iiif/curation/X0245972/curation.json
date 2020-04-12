@@ -1,0 +1,42 @@
+{
+    "@context": [
+        "http://iiif.io/api/presentation/2/context.json",
+        "http://codh.rois.ac.jp/iiif/curation/1/context.json"
+    ],
+    "@id": "https://nakamura196.github.io/umesao_yolo3/iiif/curation/X0245972/curation.json",
+    "@type": "cr:Curation",
+    "label": "Character List",
+    "selections": [
+        {
+            "@id": "https://nakamura196.github.io/umesao_yolo3/iiif/curation/X0245972/range1",
+            "@type": "sc:Range",
+            "label": "Characters",
+            "members": [
+                {
+                    "@id": "https://umesao.cultural.jp/iiif/item/X0245972/manifest.json/canvas/p1#xywh=272,864,112,236",
+                    "@type": "sc:Canvas",
+                    "label": "horse",
+                    "metadata": [
+                        {
+                            "label": "Method",
+                            "value": "YOLO v3"
+                        },
+                        {
+                            "label": "Score",
+                            "value": "0.4437734"
+                        },
+                        {
+                            "label": "Thubmnail Region",
+                            "value": "85,270,35,74"
+                        }
+                    ]
+                }
+            ],
+            "within": {
+                "@id": "https://umesao.cultural.jp/iiif/item/X0245972/manifest.json",
+                "@type": "sc:Manifest",
+                "label": "X0245972"
+            }
+        }
+    ]
+}

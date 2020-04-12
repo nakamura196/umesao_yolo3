@@ -1,0 +1,99 @@
+{
+    "@context": [
+        "http://iiif.io/api/presentation/2/context.json",
+        "http://codh.rois.ac.jp/iiif/curation/1/context.json"
+    ],
+    "@id": "https://nakamura196.github.io/umesao_yolo3/iiif/curation/001_004_image/curation.json",
+    "@type": "cr:Curation",
+    "label": "Character List",
+    "selections": [
+        {
+            "@id": "https://nakamura196.github.io/umesao_yolo3/iiif/curation/001_004_image/range1",
+            "@type": "sc:Range",
+            "label": "Characters",
+            "members": [
+                {
+                    "@id": "https://umesao.cultural.jp/iiif/item/001_004_image/manifest.json/canvas/p11#xywh=360,1090,5577,2850",
+                    "@type": "sc:Canvas",
+                    "label": "bed",
+                    "metadata": [
+                        {
+                            "label": "Method",
+                            "value": "YOLO v3"
+                        },
+                        {
+                            "label": "Score",
+                            "value": "0.47082335"
+                        },
+                        {
+                            "label": "Thubmnail Region",
+                            "value": "41,124,634,324"
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://umesao.cultural.jp/iiif/item/001_004_image/manifest.json/canvas/p14#xywh=362,450,5571,3240",
+                    "@type": "sc:Canvas",
+                    "label": "umbrella",
+                    "metadata": [
+                        {
+                            "label": "Method",
+                            "value": "YOLO v3"
+                        },
+                        {
+                            "label": "Score",
+                            "value": "0.34358177"
+                        },
+                        {
+                            "label": "Thubmnail Region",
+                            "value": "41,51,631,367"
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://umesao.cultural.jp/iiif/item/001_004_image/manifest.json/canvas/p16#xywh=1016,2235,929,1218",
+                    "@type": "sc:Canvas",
+                    "label": "vase",
+                    "metadata": [
+                        {
+                            "label": "Method",
+                            "value": "YOLO v3"
+                        },
+                        {
+                            "label": "Score",
+                            "value": "0.7089612"
+                        },
+                        {
+                            "label": "Thubmnail Region",
+                            "value": "116,255,106,139"
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://umesao.cultural.jp/iiif/item/001_004_image/manifest.json/canvas/p16#xywh=280,131,2621,3384",
+                    "@type": "sc:Canvas",
+                    "label": "pottedplant",
+                    "metadata": [
+                        {
+                            "label": "Method",
+                            "value": "YOLO v3"
+                        },
+                        {
+                            "label": "Score",
+                            "value": "0.98625183"
+                        },
+                        {
+                            "label": "Thubmnail Region",
+                            "value": "32,15,299,386"
+                        }
+                    ]
+                }
+            ],
+            "within": {
+                "@id": "https://umesao.cultural.jp/iiif/item/001_004_image/manifest.json",
+                "@type": "sc:Manifest",
+                "label": "山行_1933年7月-8月"
+            }
+        }
+    ]
+}

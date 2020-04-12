@@ -1,0 +1,99 @@
+{
+    "@context": [
+        "http://iiif.io/api/presentation/2/context.json",
+        "http://codh.rois.ac.jp/iiif/curation/1/context.json"
+    ],
+    "@id": "https://nakamura196.github.io/umesao_yolo3/iiif/curation/X0264780/curation.json",
+    "@type": "cr:Curation",
+    "label": "Character List",
+    "selections": [
+        {
+            "@id": "https://nakamura196.github.io/umesao_yolo3/iiif/curation/X0264780/range1",
+            "@type": "sc:Range",
+            "label": "Characters",
+            "members": [
+                {
+                    "@id": "https://umesao.cultural.jp/iiif/item/X0264780/manifest.json/canvas/p1#xywh=608,883,368,470",
+                    "@type": "sc:Canvas",
+                    "label": "pottedplant",
+                    "metadata": [
+                        {
+                            "label": "Method",
+                            "value": "YOLO v3"
+                        },
+                        {
+                            "label": "Score",
+                            "value": "0.9096116"
+                        },
+                        {
+                            "label": "Thubmnail Region",
+                            "value": "190,276,115,147"
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://umesao.cultural.jp/iiif/item/X0264780/manifest.json/canvas/p1#xywh=569,1152,48,89",
+                    "@type": "sc:Canvas",
+                    "label": "handbag",
+                    "metadata": [
+                        {
+                            "label": "Method",
+                            "value": "YOLO v3"
+                        },
+                        {
+                            "label": "Score",
+                            "value": "0.404028"
+                        },
+                        {
+                            "label": "Thubmnail Region",
+                            "value": "178,360,15,28"
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://umesao.cultural.jp/iiif/item/X0264780/manifest.json/canvas/p1#xywh=579,1187,35,57",
+                    "@type": "sc:Canvas",
+                    "label": "handbag",
+                    "metadata": [
+                        {
+                            "label": "Method",
+                            "value": "YOLO v3"
+                        },
+                        {
+                            "label": "Score",
+                            "value": "0.66858333"
+                        },
+                        {
+                            "label": "Thubmnail Region",
+                            "value": "181,371,11,18"
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://umesao.cultural.jp/iiif/item/X0264780/manifest.json/canvas/p1#xywh=496,1049,112,352",
+                    "@type": "sc:Canvas",
+                    "label": "person",
+                    "metadata": [
+                        {
+                            "label": "Method",
+                            "value": "YOLO v3"
+                        },
+                        {
+                            "label": "Score",
+                            "value": "0.9974129"
+                        },
+                        {
+                            "label": "Thubmnail Region",
+                            "value": "155,328,35,110"
+                        }
+                    ]
+                }
+            ],
+            "within": {
+                "@id": "https://umesao.cultural.jp/iiif/item/X0264780/manifest.json",
+                "@type": "sc:Manifest",
+                "label": "X0264780"
+            }
+        }
+    ]
+}

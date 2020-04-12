@@ -1,0 +1,99 @@
+{
+    "@context": [
+        "http://iiif.io/api/presentation/2/context.json",
+        "http://codh.rois.ac.jp/iiif/curation/1/context.json"
+    ],
+    "@id": "https://nakamura196.github.io/umesao_yolo3/iiif/curation/X0251174/curation.json",
+    "@type": "cr:Curation",
+    "label": "Character List",
+    "selections": [
+        {
+            "@id": "https://nakamura196.github.io/umesao_yolo3/iiif/curation/X0251174/range1",
+            "@type": "sc:Range",
+            "label": "Characters",
+            "members": [
+                {
+                    "@id": "https://umesao.cultural.jp/iiif/item/X0251174/manifest.json/canvas/p1#xywh=329,630,668,550",
+                    "@type": "sc:Canvas",
+                    "label": "bed",
+                    "metadata": [
+                        {
+                            "label": "Method",
+                            "value": "YOLO v3"
+                        },
+                        {
+                            "label": "Score",
+                            "value": "0.30922228"
+                        },
+                        {
+                            "label": "Thubmnail Region",
+                            "value": "103,197,209,172"
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://umesao.cultural.jp/iiif/item/X0251174/manifest.json/canvas/p1#xywh=358,505,268,140",
+                    "@type": "sc:Canvas",
+                    "label": "cow",
+                    "metadata": [
+                        {
+                            "label": "Method",
+                            "value": "YOLO v3"
+                        },
+                        {
+                            "label": "Score",
+                            "value": "0.45547506"
+                        },
+                        {
+                            "label": "Thubmnail Region",
+                            "value": "112,158,84,44"
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://umesao.cultural.jp/iiif/item/X0251174/manifest.json/canvas/p1#xywh=345,371,259,160",
+                    "@type": "sc:Canvas",
+                    "label": "cow",
+                    "metadata": [
+                        {
+                            "label": "Method",
+                            "value": "YOLO v3"
+                        },
+                        {
+                            "label": "Score",
+                            "value": "0.64677787"
+                        },
+                        {
+                            "label": "Thubmnail Region",
+                            "value": "108,116,81,50"
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://umesao.cultural.jp/iiif/item/X0251174/manifest.json/canvas/p1#xywh=358,710,624,540",
+                    "@type": "sc:Canvas",
+                    "label": "dog",
+                    "metadata": [
+                        {
+                            "label": "Method",
+                            "value": "YOLO v3"
+                        },
+                        {
+                            "label": "Score",
+                            "value": "0.44651458"
+                        },
+                        {
+                            "label": "Thubmnail Region",
+                            "value": "112,222,195,169"
+                        }
+                    ]
+                }
+            ],
+            "within": {
+                "@id": "https://umesao.cultural.jp/iiif/item/X0251174/manifest.json",
+                "@type": "sc:Manifest",
+                "label": "X0251174"
+            }
+        }
+    ]
+}

@@ -1,0 +1,99 @@
+{
+    "@context": [
+        "http://iiif.io/api/presentation/2/context.json",
+        "http://codh.rois.ac.jp/iiif/curation/1/context.json"
+    ],
+    "@id": "https://nakamura196.github.io/umesao_yolo3/iiif/curation/004_024_image/curation.json",
+    "@type": "cr:Curation",
+    "label": "Character List",
+    "selections": [
+        {
+            "@id": "https://nakamura196.github.io/umesao_yolo3/iiif/curation/004_024_image/range1",
+            "@type": "sc:Range",
+            "label": "Characters",
+            "members": [
+                {
+                    "@id": "https://umesao.cultural.jp/iiif/item/004_024_image/manifest.json/canvas/p3#xywh=106,33,2156,1400",
+                    "@type": "sc:Canvas",
+                    "label": "book",
+                    "metadata": [
+                        {
+                            "label": "Method",
+                            "value": "YOLO v3"
+                        },
+                        {
+                            "label": "Score",
+                            "value": "0.33699897"
+                        },
+                        {
+                            "label": "Thubmnail Region",
+                            "value": "35,11,707,459"
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://umesao.cultural.jp/iiif/item/004_024_image/manifest.json/canvas/p11#xywh=111,6,2133,1403",
+                    "@type": "sc:Canvas",
+                    "label": "book",
+                    "metadata": [
+                        {
+                            "label": "Method",
+                            "value": "YOLO v3"
+                        },
+                        {
+                            "label": "Score",
+                            "value": "0.4091416"
+                        },
+                        {
+                            "label": "Thubmnail Region",
+                            "value": "37,2,707,465"
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://umesao.cultural.jp/iiif/item/004_024_image/manifest.json/canvas/p12#xywh=114,0,2130,1448",
+                    "@type": "sc:Canvas",
+                    "label": "book",
+                    "metadata": [
+                        {
+                            "label": "Method",
+                            "value": "YOLO v3"
+                        },
+                        {
+                            "label": "Score",
+                            "value": "0.3201504"
+                        },
+                        {
+                            "label": "Thubmnail Region",
+                            "value": "38,0,706,480"
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://umesao.cultural.jp/iiif/item/004_024_image/manifest.json/canvas/p14#xywh=112,49,2234,1355",
+                    "@type": "sc:Canvas",
+                    "label": "book",
+                    "metadata": [
+                        {
+                            "label": "Method",
+                            "value": "YOLO v3"
+                        },
+                        {
+                            "label": "Score",
+                            "value": "0.31837964"
+                        },
+                        {
+                            "label": "Thubmnail Region",
+                            "value": "36,16,717,435"
+                        }
+                    ]
+                }
+            ],
+            "within": {
+                "@id": "https://umesao.cultural.jp/iiif/item/004_024_image/manifest.json",
+                "@type": "sc:Manifest",
+                "label": "大阪市立大学東南アジア学術調査 第1次 現地通信（梅棹から事務局の吉良龍夫あて）"
+            }
+        }
+    ]
+}

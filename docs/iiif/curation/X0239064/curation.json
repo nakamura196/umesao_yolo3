@@ -1,0 +1,99 @@
+{
+    "@context": [
+        "http://iiif.io/api/presentation/2/context.json",
+        "http://codh.rois.ac.jp/iiif/curation/1/context.json"
+    ],
+    "@id": "https://nakamura196.github.io/umesao_yolo3/iiif/curation/X0239064/curation.json",
+    "@type": "cr:Curation",
+    "label": "Character List",
+    "selections": [
+        {
+            "@id": "https://nakamura196.github.io/umesao_yolo3/iiif/curation/X0239064/range1",
+            "@type": "sc:Range",
+            "label": "Characters",
+            "members": [
+                {
+                    "@id": "https://umesao.cultural.jp/iiif/item/X0239064/manifest.json/canvas/p1#xywh=522,514,149,277",
+                    "@type": "sc:Canvas",
+                    "label": "pottedplant",
+                    "metadata": [
+                        {
+                            "label": "Method",
+                            "value": "YOLO v3"
+                        },
+                        {
+                            "label": "Score",
+                            "value": "0.97484994"
+                        },
+                        {
+                            "label": "Thubmnail Region",
+                            "value": "245,241,70,130"
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://umesao.cultural.jp/iiif/item/X0239064/manifest.json/canvas/p1#xywh=4,851,313,168",
+                    "@type": "sc:Canvas",
+                    "label": "car",
+                    "metadata": [
+                        {
+                            "label": "Method",
+                            "value": "YOLO v3"
+                        },
+                        {
+                            "label": "Score",
+                            "value": "0.72683203"
+                        },
+                        {
+                            "label": "Thubmnail Region",
+                            "value": "2,399,147,79"
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://umesao.cultural.jp/iiif/item/X0239064/manifest.json/canvas/p1#xywh=0,582,347,275",
+                    "@type": "sc:Canvas",
+                    "label": "car",
+                    "metadata": [
+                        {
+                            "label": "Method",
+                            "value": "YOLO v3"
+                        },
+                        {
+                            "label": "Score",
+                            "value": "0.96401674"
+                        },
+                        {
+                            "label": "Thubmnail Region",
+                            "value": "0,273,163,129"
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://umesao.cultural.jp/iiif/item/X0239064/manifest.json/canvas/p1#xywh=1335,665,192,236",
+                    "@type": "sc:Canvas",
+                    "label": "car",
+                    "metadata": [
+                        {
+                            "label": "Method",
+                            "value": "YOLO v3"
+                        },
+                        {
+                            "label": "Score",
+                            "value": "0.97894126"
+                        },
+                        {
+                            "label": "Thubmnail Region",
+                            "value": "626,312,90,111"
+                        }
+                    ]
+                }
+            ],
+            "within": {
+                "@id": "https://umesao.cultural.jp/iiif/item/X0239064/manifest.json",
+                "@type": "sc:Manifest",
+                "label": "X0239064"
+            }
+        }
+    ]
+}

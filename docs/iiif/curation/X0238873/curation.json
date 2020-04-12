@@ -1,0 +1,61 @@
+{
+    "@context": [
+        "http://iiif.io/api/presentation/2/context.json",
+        "http://codh.rois.ac.jp/iiif/curation/1/context.json"
+    ],
+    "@id": "https://nakamura196.github.io/umesao_yolo3/iiif/curation/X0238873/curation.json",
+    "@type": "cr:Curation",
+    "label": "Character List",
+    "selections": [
+        {
+            "@id": "https://nakamura196.github.io/umesao_yolo3/iiif/curation/X0238873/range1",
+            "@type": "sc:Range",
+            "label": "Characters",
+            "members": [
+                {
+                    "@id": "https://umesao.cultural.jp/iiif/item/X0238873/manifest.json/canvas/p1#xywh=416,592,166,150",
+                    "@type": "sc:Canvas",
+                    "label": "clock",
+                    "metadata": [
+                        {
+                            "label": "Method",
+                            "value": "YOLO v3"
+                        },
+                        {
+                            "label": "Score",
+                            "value": "0.4543417"
+                        },
+                        {
+                            "label": "Thubmnail Region",
+                            "value": "130,185,52,47"
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://umesao.cultural.jp/iiif/item/X0238873/manifest.json/canvas/p1#xywh=480,1142,57,112",
+                    "@type": "sc:Canvas",
+                    "label": "clock",
+                    "metadata": [
+                        {
+                            "label": "Method",
+                            "value": "YOLO v3"
+                        },
+                        {
+                            "label": "Score",
+                            "value": "0.83997864"
+                        },
+                        {
+                            "label": "Thubmnail Region",
+                            "value": "150,357,18,35"
+                        }
+                    ]
+                }
+            ],
+            "within": {
+                "@id": "https://umesao.cultural.jp/iiif/item/X0238873/manifest.json",
+                "@type": "sc:Manifest",
+                "label": "X0238873"
+            }
+        }
+    ]
+}

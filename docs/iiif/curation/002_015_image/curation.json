@@ -1,0 +1,99 @@
+{
+    "@context": [
+        "http://iiif.io/api/presentation/2/context.json",
+        "http://codh.rois.ac.jp/iiif/curation/1/context.json"
+    ],
+    "@id": "https://nakamura196.github.io/umesao_yolo3/iiif/curation/002_015_image/curation.json",
+    "@type": "cr:Curation",
+    "label": "Character List",
+    "selections": [
+        {
+            "@id": "https://nakamura196.github.io/umesao_yolo3/iiif/curation/002_015_image/range1",
+            "@type": "sc:Range",
+            "label": "Characters",
+            "members": [
+                {
+                    "@id": "https://umesao.cultural.jp/iiif/item/002_015_image/manifest.json/canvas/p2#xywh=246,78,3121,2297",
+                    "@type": "sc:Canvas",
+                    "label": "refrigerator",
+                    "metadata": [
+                        {
+                            "label": "Method",
+                            "value": "YOLO v3"
+                        },
+                        {
+                            "label": "Score",
+                            "value": "0.39124963"
+                        },
+                        {
+                            "label": "Thubmnail Region",
+                            "value": "47,15,595,438"
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://umesao.cultural.jp/iiif/item/002_015_image/manifest.json/canvas/p4#xywh=131,89,3231,2276",
+                    "@type": "sc:Canvas",
+                    "label": "book",
+                    "metadata": [
+                        {
+                            "label": "Method",
+                            "value": "YOLO v3"
+                        },
+                        {
+                            "label": "Score",
+                            "value": "0.35197788"
+                        },
+                        {
+                            "label": "Thubmnail Region",
+                            "value": "25,17,616,434"
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://umesao.cultural.jp/iiif/item/002_015_image/manifest.json/canvas/p5#xywh=188,104,3121,2250",
+                    "@type": "sc:Canvas",
+                    "label": "book",
+                    "metadata": [
+                        {
+                            "label": "Method",
+                            "value": "YOLO v3"
+                        },
+                        {
+                            "label": "Score",
+                            "value": "0.62298304"
+                        },
+                        {
+                            "label": "Thubmnail Region",
+                            "value": "36,20,595,429"
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://umesao.cultural.jp/iiif/item/002_015_image/manifest.json/canvas/p28#xywh=183,162,3110,2087",
+                    "@type": "sc:Canvas",
+                    "label": "book",
+                    "metadata": [
+                        {
+                            "label": "Method",
+                            "value": "YOLO v3"
+                        },
+                        {
+                            "label": "Score",
+                            "value": "0.3826158"
+                        },
+                        {
+                            "label": "Thubmnail Region",
+                            "value": "35,31,593,398"
+                        }
+                    ]
+                }
+            ],
+            "within": {
+                "@id": "https://umesao.cultural.jp/iiif/item/002_015_image/manifest.json",
+                "@type": "sc:Manifest",
+                "label": "内モンゴル調査10"
+            }
+        }
+    ]
+}

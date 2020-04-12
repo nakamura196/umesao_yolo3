@@ -1,0 +1,99 @@
+{
+    "@context": [
+        "http://iiif.io/api/presentation/2/context.json",
+        "http://codh.rois.ac.jp/iiif/curation/1/context.json"
+    ],
+    "@id": "https://nakamura196.github.io/umesao_yolo3/iiif/curation/X0244552/curation.json",
+    "@type": "cr:Curation",
+    "label": "Character List",
+    "selections": [
+        {
+            "@id": "https://nakamura196.github.io/umesao_yolo3/iiif/curation/X0244552/range1",
+            "@type": "sc:Range",
+            "label": "Characters",
+            "members": [
+                {
+                    "@id": "https://umesao.cultural.jp/iiif/item/X0244552/manifest.json/canvas/p1#xywh=669,580,147,34",
+                    "@type": "sc:Canvas",
+                    "label": "boat",
+                    "metadata": [
+                        {
+                            "label": "Method",
+                            "value": "YOLO v3"
+                        },
+                        {
+                            "label": "Score",
+                            "value": "0.30312067"
+                        },
+                        {
+                            "label": "Thubmnail Region",
+                            "value": "314,272,69,16"
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://umesao.cultural.jp/iiif/item/X0244552/manifest.json/canvas/p1#xywh=117,571,149,42",
+                    "@type": "sc:Canvas",
+                    "label": "boat",
+                    "metadata": [
+                        {
+                            "label": "Method",
+                            "value": "YOLO v3"
+                        },
+                        {
+                            "label": "Score",
+                            "value": "0.4423278"
+                        },
+                        {
+                            "label": "Thubmnail Region",
+                            "value": "55,268,70,20"
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://umesao.cultural.jp/iiif/item/X0244552/manifest.json/canvas/p1#xywh=488,379,1030,236",
+                    "@type": "sc:Canvas",
+                    "label": "boat",
+                    "metadata": [
+                        {
+                            "label": "Method",
+                            "value": "YOLO v3"
+                        },
+                        {
+                            "label": "Score",
+                            "value": "0.5701404"
+                        },
+                        {
+                            "label": "Thubmnail Region",
+                            "value": "229,178,483,111"
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://umesao.cultural.jp/iiif/item/X0244552/manifest.json/canvas/p1#xywh=488,379,1030,236",
+                    "@type": "sc:Canvas",
+                    "label": "aeroplane",
+                    "metadata": [
+                        {
+                            "label": "Method",
+                            "value": "YOLO v3"
+                        },
+                        {
+                            "label": "Score",
+                            "value": "0.62211025"
+                        },
+                        {
+                            "label": "Thubmnail Region",
+                            "value": "229,178,483,111"
+                        }
+                    ]
+                }
+            ],
+            "within": {
+                "@id": "https://umesao.cultural.jp/iiif/item/X0244552/manifest.json",
+                "@type": "sc:Manifest",
+                "label": "X0244552"
+            }
+        }
+    ]
+}

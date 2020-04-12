@@ -1,0 +1,99 @@
+{
+    "@context": [
+        "http://iiif.io/api/presentation/2/context.json",
+        "http://codh.rois.ac.jp/iiif/curation/1/context.json"
+    ],
+    "@id": "https://nakamura196.github.io/umesao_yolo3/iiif/curation/X0233761/curation.json",
+    "@type": "cr:Curation",
+    "label": "Character List",
+    "selections": [
+        {
+            "@id": "https://nakamura196.github.io/umesao_yolo3/iiif/curation/X0233761/range1",
+            "@type": "sc:Range",
+            "label": "Characters",
+            "members": [
+                {
+                    "@id": "https://umesao.cultural.jp/iiif/item/X0233761/manifest.json/canvas/p1#xywh=718,531,19,8",
+                    "@type": "sc:Canvas",
+                    "label": "bird",
+                    "metadata": [
+                        {
+                            "label": "Method",
+                            "value": "YOLO v3"
+                        },
+                        {
+                            "label": "Score",
+                            "value": "0.30121323"
+                        },
+                        {
+                            "label": "Thubmnail Region",
+                            "value": "337,249,9,4"
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://umesao.cultural.jp/iiif/item/X0233761/manifest.json/canvas/p1#xywh=876,546,14,10",
+                    "@type": "sc:Canvas",
+                    "label": "bird",
+                    "metadata": [
+                        {
+                            "label": "Method",
+                            "value": "YOLO v3"
+                        },
+                        {
+                            "label": "Score",
+                            "value": "0.3976776"
+                        },
+                        {
+                            "label": "Thubmnail Region",
+                            "value": "411,256,7,5"
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://umesao.cultural.jp/iiif/item/X0233761/manifest.json/canvas/p1#xywh=917,548,14,8",
+                    "@type": "sc:Canvas",
+                    "label": "bird",
+                    "metadata": [
+                        {
+                            "label": "Method",
+                            "value": "YOLO v3"
+                        },
+                        {
+                            "label": "Score",
+                            "value": "0.6684708"
+                        },
+                        {
+                            "label": "Thubmnail Region",
+                            "value": "430,257,7,4"
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://umesao.cultural.jp/iiif/item/X0233761/manifest.json/canvas/p1#xywh=883,546,19,12",
+                    "@type": "sc:Canvas",
+                    "label": "bird",
+                    "metadata": [
+                        {
+                            "label": "Method",
+                            "value": "YOLO v3"
+                        },
+                        {
+                            "label": "Score",
+                            "value": "0.669935"
+                        },
+                        {
+                            "label": "Thubmnail Region",
+                            "value": "414,256,9,6"
+                        }
+                    ]
+                }
+            ],
+            "within": {
+                "@id": "https://umesao.cultural.jp/iiif/item/X0233761/manifest.json",
+                "@type": "sc:Manifest",
+                "label": "X0233761"
+            }
+        }
+    ]
+}

@@ -1,0 +1,99 @@
+{
+    "@context": [
+        "http://iiif.io/api/presentation/2/context.json",
+        "http://codh.rois.ac.jp/iiif/curation/1/context.json"
+    ],
+    "@id": "https://nakamura196.github.io/umesao_yolo3/iiif/curation/X0250516/curation.json",
+    "@type": "cr:Curation",
+    "label": "Character List",
+    "selections": [
+        {
+            "@id": "https://nakamura196.github.io/umesao_yolo3/iiif/curation/X0250516/range1",
+            "@type": "sc:Range",
+            "label": "Characters",
+            "members": [
+                {
+                    "@id": "https://umesao.cultural.jp/iiif/item/X0250516/manifest.json/canvas/p1#xywh=364,1155,137,131",
+                    "@type": "sc:Canvas",
+                    "label": "cell phone",
+                    "metadata": [
+                        {
+                            "label": "Method",
+                            "value": "YOLO v3"
+                        },
+                        {
+                            "label": "Score",
+                            "value": "0.5085465"
+                        },
+                        {
+                            "label": "Thubmnail Region",
+                            "value": "114,361,43,41"
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://umesao.cultural.jp/iiif/item/X0250516/manifest.json/canvas/p1#xywh=22,419,236,297",
+                    "@type": "sc:Canvas",
+                    "label": "bed",
+                    "metadata": [
+                        {
+                            "label": "Method",
+                            "value": "YOLO v3"
+                        },
+                        {
+                            "label": "Score",
+                            "value": "0.7093846"
+                        },
+                        {
+                            "label": "Thubmnail Region",
+                            "value": "7,131,74,93"
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://umesao.cultural.jp/iiif/item/X0250516/manifest.json/canvas/p1#xywh=41,710,169,502",
+                    "@type": "sc:Canvas",
+                    "label": "chair",
+                    "metadata": [
+                        {
+                            "label": "Method",
+                            "value": "YOLO v3"
+                        },
+                        {
+                            "label": "Score",
+                            "value": "0.3536118"
+                        },
+                        {
+                            "label": "Thubmnail Region",
+                            "value": "13,222,53,157"
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://umesao.cultural.jp/iiif/item/X0250516/manifest.json/canvas/p1#xywh=163,374,643,944",
+                    "@type": "sc:Canvas",
+                    "label": "person",
+                    "metadata": [
+                        {
+                            "label": "Method",
+                            "value": "YOLO v3"
+                        },
+                        {
+                            "label": "Score",
+                            "value": "0.9956139"
+                        },
+                        {
+                            "label": "Thubmnail Region",
+                            "value": "51,117,201,295"
+                        }
+                    ]
+                }
+            ],
+            "within": {
+                "@id": "https://umesao.cultural.jp/iiif/item/X0250516/manifest.json",
+                "@type": "sc:Manifest",
+                "label": "X0250516"
+            }
+        }
+    ]
+}

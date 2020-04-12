@@ -1,0 +1,80 @@
+{
+    "@context": [
+        "http://iiif.io/api/presentation/2/context.json",
+        "http://codh.rois.ac.jp/iiif/curation/1/context.json"
+    ],
+    "@id": "https://nakamura196.github.io/umesao_yolo3/iiif/curation/X0229548/curation.json",
+    "@type": "cr:Curation",
+    "label": "Character List",
+    "selections": [
+        {
+            "@id": "https://nakamura196.github.io/umesao_yolo3/iiif/curation/X0229548/range1",
+            "@type": "sc:Range",
+            "label": "Characters",
+            "members": [
+                {
+                    "@id": "https://umesao.cultural.jp/iiif/item/X0229548/manifest.json/canvas/p1#xywh=51,469,34,74",
+                    "@type": "sc:Canvas",
+                    "label": "traffic light",
+                    "metadata": [
+                        {
+                            "label": "Method",
+                            "value": "YOLO v3"
+                        },
+                        {
+                            "label": "Score",
+                            "value": "0.36917126"
+                        },
+                        {
+                            "label": "Thubmnail Region",
+                            "value": "24,220,16,35"
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://umesao.cultural.jp/iiif/item/X0229548/manifest.json/canvas/p1#xywh=85,448,36,106",
+                    "@type": "sc:Canvas",
+                    "label": "traffic light",
+                    "metadata": [
+                        {
+                            "label": "Method",
+                            "value": "YOLO v3"
+                        },
+                        {
+                            "label": "Score",
+                            "value": "0.38753524"
+                        },
+                        {
+                            "label": "Thubmnail Region",
+                            "value": "40,210,17,50"
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://umesao.cultural.jp/iiif/item/X0229548/manifest.json/canvas/p1#xywh=128,462,44,89",
+                    "@type": "sc:Canvas",
+                    "label": "traffic light",
+                    "metadata": [
+                        {
+                            "label": "Method",
+                            "value": "YOLO v3"
+                        },
+                        {
+                            "label": "Score",
+                            "value": "0.64717203"
+                        },
+                        {
+                            "label": "Thubmnail Region",
+                            "value": "60,217,21,42"
+                        }
+                    ]
+                }
+            ],
+            "within": {
+                "@id": "https://umesao.cultural.jp/iiif/item/X0229548/manifest.json",
+                "@type": "sc:Manifest",
+                "label": "X0229548"
+            }
+        }
+    ]
+}

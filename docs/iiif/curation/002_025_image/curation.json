@@ -1,0 +1,61 @@
+{
+    "@context": [
+        "http://iiif.io/api/presentation/2/context.json",
+        "http://codh.rois.ac.jp/iiif/curation/1/context.json"
+    ],
+    "@id": "https://nakamura196.github.io/umesao_yolo3/iiif/curation/002_025_image/curation.json",
+    "@type": "cr:Curation",
+    "label": "Character List",
+    "selections": [
+        {
+            "@id": "https://nakamura196.github.io/umesao_yolo3/iiif/curation/002_025_image/range1",
+            "@type": "sc:Range",
+            "label": "Characters",
+            "members": [
+                {
+                    "@id": "https://umesao.cultural.jp/iiif/item/002_025_image/manifest.json/canvas/p48#xywh=182,71,1498,2220",
+                    "@type": "sc:Canvas",
+                    "label": "book",
+                    "metadata": [
+                        {
+                            "label": "Method",
+                            "value": "YOLO v3"
+                        },
+                        {
+                            "label": "Score",
+                            "value": "0.330284"
+                        },
+                        {
+                            "label": "Thubmnail Region",
+                            "value": "36,14,295,437"
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://umesao.cultural.jp/iiif/item/002_025_image/manifest.json/canvas/p54#xywh=50,76,1723,2262",
+                    "@type": "sc:Canvas",
+                    "label": "tvmonitor",
+                    "metadata": [
+                        {
+                            "label": "Method",
+                            "value": "YOLO v3"
+                        },
+                        {
+                            "label": "Score",
+                            "value": "0.47331178"
+                        },
+                        {
+                            "label": "Thubmnail Region",
+                            "value": "10,15,339,445"
+                        }
+                    ]
+                }
+            ],
+            "within": {
+                "@id": "https://umesao.cultural.jp/iiif/item/002_025_image/manifest.json",
+                "@type": "sc:Manifest",
+                "label": "内モンゴル調査20"
+            }
+        }
+    ]
+}

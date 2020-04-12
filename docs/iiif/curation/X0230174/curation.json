@@ -1,0 +1,99 @@
+{
+    "@context": [
+        "http://iiif.io/api/presentation/2/context.json",
+        "http://codh.rois.ac.jp/iiif/curation/1/context.json"
+    ],
+    "@id": "https://nakamura196.github.io/umesao_yolo3/iiif/curation/X0230174/curation.json",
+    "@type": "cr:Curation",
+    "label": "Character List",
+    "selections": [
+        {
+            "@id": "https://nakamura196.github.io/umesao_yolo3/iiif/curation/X0230174/range1",
+            "@type": "sc:Range",
+            "label": "Characters",
+            "members": [
+                {
+                    "@id": "https://umesao.cultural.jp/iiif/item/X0230174/manifest.json/canvas/p1#xywh=14,0,1469,1024",
+                    "@type": "sc:Canvas",
+                    "label": "diningtable",
+                    "metadata": [
+                        {
+                            "label": "Method",
+                            "value": "YOLO v3"
+                        },
+                        {
+                            "label": "Score",
+                            "value": "0.9158716"
+                        },
+                        {
+                            "label": "Thubmnail Region",
+                            "value": "7,0,689,480"
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://umesao.cultural.jp/iiif/item/X0230174/manifest.json/canvas/p1#xywh=437,160,618,648",
+                    "@type": "sc:Canvas",
+                    "label": "cake",
+                    "metadata": [
+                        {
+                            "label": "Method",
+                            "value": "YOLO v3"
+                        },
+                        {
+                            "label": "Score",
+                            "value": "0.51717764"
+                        },
+                        {
+                            "label": "Thubmnail Region",
+                            "value": "205,75,290,304"
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://umesao.cultural.jp/iiif/item/X0230174/manifest.json/canvas/p1#xywh=409,192,433,401",
+                    "@type": "sc:Canvas",
+                    "label": "hot dog",
+                    "metadata": [
+                        {
+                            "label": "Method",
+                            "value": "YOLO v3"
+                        },
+                        {
+                            "label": "Score",
+                            "value": "0.3313192"
+                        },
+                        {
+                            "label": "Thubmnail Region",
+                            "value": "192,90,203,188"
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://umesao.cultural.jp/iiif/item/X0230174/manifest.json/canvas/p1#xywh=428,117,625,654",
+                    "@type": "sc:Canvas",
+                    "label": "hot dog",
+                    "metadata": [
+                        {
+                            "label": "Method",
+                            "value": "YOLO v3"
+                        },
+                        {
+                            "label": "Score",
+                            "value": "0.47992322"
+                        },
+                        {
+                            "label": "Thubmnail Region",
+                            "value": "201,55,293,307"
+                        }
+                    ]
+                }
+            ],
+            "within": {
+                "@id": "https://umesao.cultural.jp/iiif/item/X0230174/manifest.json",
+                "@type": "sc:Manifest",
+                "label": "X0230174"
+            }
+        }
+    ]
+}

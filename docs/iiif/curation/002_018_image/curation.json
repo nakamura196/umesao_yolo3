@@ -1,0 +1,42 @@
+{
+    "@context": [
+        "http://iiif.io/api/presentation/2/context.json",
+        "http://codh.rois.ac.jp/iiif/curation/1/context.json"
+    ],
+    "@id": "https://nakamura196.github.io/umesao_yolo3/iiif/curation/002_018_image/curation.json",
+    "@type": "cr:Curation",
+    "label": "Character List",
+    "selections": [
+        {
+            "@id": "https://nakamura196.github.io/umesao_yolo3/iiif/curation/002_018_image/range1",
+            "@type": "sc:Range",
+            "label": "Characters",
+            "members": [
+                {
+                    "@id": "https://umesao.cultural.jp/iiif/item/002_018_image/manifest.json/canvas/p2#xywh=152,101,3140,2164",
+                    "@type": "sc:Canvas",
+                    "label": "refrigerator",
+                    "metadata": [
+                        {
+                            "label": "Method",
+                            "value": "YOLO v3"
+                        },
+                        {
+                            "label": "Score",
+                            "value": "0.82545394"
+                        },
+                        {
+                            "label": "Thubmnail Region",
+                            "value": "30,20,618,426"
+                        }
+                    ]
+                }
+            ],
+            "within": {
+                "@id": "https://umesao.cultural.jp/iiif/item/002_018_image/manifest.json",
+                "@type": "sc:Manifest",
+                "label": "内モンゴル調査13"
+            }
+        }
+    ]
+}

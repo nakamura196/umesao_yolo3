@@ -1,0 +1,22 @@
+{
+    "@context": [
+        "http://iiif.io/api/presentation/2/context.json",
+        "http://codh.rois.ac.jp/iiif/curation/1/context.json"
+    ],
+    "@id": "https://nakamura196.github.io/umesao_yolo3/iiif/curation/003_004_image/curation.json",
+    "@type": "cr:Curation",
+    "label": "Character List",
+    "selections": [
+        {
+            "@id": "https://nakamura196.github.io/umesao_yolo3/iiif/curation/003_004_image/range1",
+            "@type": "sc:Range",
+            "label": "Characters",
+            "members": [],
+            "within": {
+                "@id": "https://umesao.cultural.jp/iiif/item/003_004_image/manifest.json",
+                "@type": "sc:Manifest",
+                "label": "岩村 忍（カーブルにて）から梅棹忠夫、中尾佐助、川喜田二郎あて"
+            }
+        }
+    ]
+}
