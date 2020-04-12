@@ -8,12 +8,14 @@ import os
 import requests
 import shutil
 
+
 def download_img(url, file_name):
     r = requests.get(url, stream=True)
     if r.status_code == 200:
         with open(file_name, 'wb') as f:
             r.raw.decode_content = True
             shutil.copyfileobj(r.raw, f)
+
 
 yolo = YOLO()
 
@@ -33,39 +35,41 @@ for i in range(len(files)):
     id = file.split("/item/")[1].replace("/manifest.json", "")
 
     manifest_uri = df["@id"]
-    print(manifest_uri)
+    # print(manifest_uri)
 
     sequences = df["sequences"]
-
-    members = []
 
     odir = "../../docs/iiif/curation/" + id
     os.makedirs(odir, exist_ok=True)
 
     opath = odir + "/curation.json"
 
-    if False:
-        if os.path.exists(opath):
-            continue
-    
+    if True and os.path.exists(opath):
+        continue
+
+    '''
+    skip_flg = False
+
     with open(opath) as f:
         df2 = json.load(f)
 
         members = df2["selections"][0]["members"]
 
         if len(members) == 0:
-            continue
+            skip_flg = True
+        else:
+            metadata = members[0]["metadata"]
+            for obj in metadata:
+                label = obj["label"]
 
-        metadata = members[0]["metadata"]
+                if label == "Thumbnail Region":
+                    skip_flg = True
 
-        for obj in metadata:
-            label == obj["label"]
+    if skip_flg:
+        continue
+    '''
 
-            if "Thubmnail Region" == label:
-                print(obj["value"])
-                continue
-
-    
+    members = []
 
     for i in range(len(sequences)):
 
@@ -91,16 +95,16 @@ for i in range(len(files)):
                 image = Image.open(tmp_path)
             except Exception as e:
                 print(e)
-                continue 
+                continue
             th_w, th_h = image.size
-            
+
             org_w = canvas["width"]
 
             # オリジナルサイズ
             r = org_w / th_w
 
             result = yolo.detect_image(image)
-            print(result)
+            # print(result)
 
             ##############
 
@@ -134,11 +138,13 @@ for i in range(len(files)):
                         {
                             "label": "Score",
                             "value": str(obj["score"])
-                        },
+                        }
+                        ''',
                         {
-                            "label": "Thubmnail Region",
+                            "label": "Thumbnail Region",
                             "value": str(tx)+","+str(ty)+","+str(tw)+","+str(th)
                         }
+                        '''
                     ]
                 }
 
@@ -171,9 +177,6 @@ for i in range(len(files)):
 
     fw = open(opath, 'w')
     json.dump(curation, fw, ensure_ascii=False, indent=4,
-        sort_keys=True, separators=(',', ': '))
+              sort_keys=True, separators=(',', ': '))
 
 yolo.close_session()
-
-
-    
